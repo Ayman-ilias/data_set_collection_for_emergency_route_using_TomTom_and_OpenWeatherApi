@@ -63,14 +63,13 @@ OPENWEATHER_API_KEY=your_openweather_key_here
 
 ### 5. 📥 **Clone the Repo**
 ```bash
-git clone https://github.com/your-username/traffic-dataset-collector.git
-cd traffic-dataset-collector
+git clone https://github.com/Ayman-ilias/data_set_collection_for_emergency_route_using_TomTom_and_OpenWeatherApi.git
+cd data_set_collection_for_emergency_route_using_TomTom_and_OpenWeatherApi
 ```
 
 ### 6. ▶️ **Run the Script**
 ```bash
-python traffic_data_collector_with_backup.py
-```
+python traffic.py
 
 ### 7. ⚙️ **Pick a Mode**
 Choose from 10 options (e.g., 3pm-11pm NY time) and start collecting! ⚡
