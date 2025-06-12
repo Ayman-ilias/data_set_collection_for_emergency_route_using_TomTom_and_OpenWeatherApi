@@ -68,7 +68,9 @@ cd data_set_collection_for_emergency_route_using_TomTom_and_OpenWeatherApi
 ```
 
 ### 6. ▶️ **Run the Script**
+```bash
 python traffic.py
+```
 
 
 
