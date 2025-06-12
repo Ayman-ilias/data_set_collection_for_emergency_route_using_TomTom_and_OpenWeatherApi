@@ -68,8 +68,9 @@ cd data_set_collection_for_emergency_route_using_TomTom_and_OpenWeatherApi
 ```
 
 ### 6. ▶️ **Run the Script**
-```bash
 python traffic.py
+
+
 
 ### 7. ⚙️ **Pick a Mode**
 Choose from 10 options (e.g., 3pm-11pm NY time) and start collecting! ⚡
