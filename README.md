@@ -230,24 +230,6 @@ Choose from 10 options (e.g., 3pm-11pm NY time) and start collecting! ⚡
 
 ---
 
-## 🧠 How LSTM Uses This
-
-**LSTM is like a traffic fortune-teller! It learns from this data to predict future conditions:**
-
-| ⏰ **Time Trends** | 🚦 **Traffic Flow** | 🌧️ **Weather & Incidents** | 🎯 **Route Optimization** |
-|:---:|:---:|:---:|:---:|
-| Uses timestamp, hour, etc., to spot patterns like rush hour | Predicts congestion_level and travel_time for each segment | Avoids routes with rain, snow, or accidents | Picks the fastest, safest path by analyzing all features |
-
----
-
-## 🎯 Benefits of the Code
-
-| 💚 **Saves Lives** | 🔄 **No Downtime** | ⚙️ **Flexible** | 📊 **Data-Rich** | 👥 **User-Friendly** |
-|:---:|:---:|:---:|:---:|:---:|
-| Helps ambulances reach patients faster | Backup API key ensures continuous data collection | 10 modes, from quick tests to 4-day runs | 34 features give LSTM everything it needs | Easy setup, clear outputs, perfect for beginners |
-
----
-
 ## 🚀 Get Started
 
 1. **📥 Clone the repo and follow the setup steps**
