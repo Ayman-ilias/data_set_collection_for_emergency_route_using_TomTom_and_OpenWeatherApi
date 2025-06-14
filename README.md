@@ -22,15 +22,6 @@ Welcome to the **Traffic Dataset Collector**, a Python tool that gathers real-ti
 
 **This script collects traffic, weather, and incident data along a 2.4-mile ambulance route in NYC. It's like a super-smart GPS that helps ambulances dodge traffic jams, accidents, and bad weather. The data is saved in a CSV file, ready to train an LSTM model to predict the best route. With backup API keys, it keeps collecting data even if the main keys hit their limit, ensuring no interruptions!**
 
----
-
-## 🔥 Why It's Cool
-
-| 💚 **Life-Saving** | 🧠 **Smart AI** | 📊 **Rich Data** | 🔄 **Reliable** |
-|:---:|:---:|:---:|:---:|
-| Gets ambulances to patients faster | Uses LSTM to learn traffic patterns over time | 34 features cover everything from speed to snow | Backup keys keep the data flowing |
-
----
 
 ## 🛠️ Setup & Installation
 

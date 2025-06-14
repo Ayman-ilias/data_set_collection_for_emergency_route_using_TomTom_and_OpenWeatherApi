@@ -7,14 +7,10 @@ import os
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
-import os
-from dotenv import load_dotenv
-load_dotenv()
-
-API_KEY = os.getenv("TOMTOM_API_KEY")
-API_KEY2 = os.getenv("API_KEY2")
-BACKUP_API_KEY = os.getenv("BACKUP_API_KEY")
-WEATHER_API_KEY = os.getenv("OPENWEATHER_API_KEY")
+API_KEY = "dzoitEbLZYaUL1axN8JOnaRNVuacAgHq"
+API_KEY2 = "NFuLZt7yDzMPW0R1uORxR93cdEH13IVL"
+BACKUP_API_KEY = "B1gAH88VEbZLsLdCfy9Qw8gEkk07TPwc"
+WEATHER_API_KEY = "5cab911c7bcf3c8fc5be53b7224574e4"
 
 NY_TZ = ZoneInfo("America/New_York")
 
@@ -100,7 +96,7 @@ def calculate_distance(lat1, lon1, lat2, lon2):
     return R * c  
 
 def get_weather_data(lat, lon):
-    if not WEATHER_API_KEY or WEATHER_API_KEY == os.getenv("OPENWEATHER_API_KEY"):
+    if not WEATHER_API_KEY or WEATHER_API_KEY == "5cab911c7bcf3c8fc5be53b7224574e4":
         return {
             'weather_condition': 'Clear',
             'has_rain': 0,
