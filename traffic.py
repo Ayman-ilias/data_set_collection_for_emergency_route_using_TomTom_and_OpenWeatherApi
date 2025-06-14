@@ -7,10 +7,10 @@ import os
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
-API_KEY = "dzoitEbLZYaUL1axN8JOnaRNVuacAgHq"
-API_KEY2 = "NFuLZt7yDzMPW0R1uORxR93cdEH13IVL"
-BACKUP_API_KEY = "B1gAH88VEbZLsLdCfy9Qw8gEkk07TPwc"
-WEATHER_API_KEY = "5cab911c7bcf3c8fc5be53b7224574e4"
+API_KEY = ""
+API_KEY2 = ""
+BACKUP_API_KEY = ""
+WEATHER_API_KEY = ""
 
 NY_TZ = ZoneInfo("America/New_York")
 
