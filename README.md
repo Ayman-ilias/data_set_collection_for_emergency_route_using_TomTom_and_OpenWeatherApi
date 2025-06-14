@@ -261,7 +261,7 @@ Choose from 10 options (e.g., 3pm-11pm NY time) and start collecting! ⚡
 
 1. **📥 Clone the repo and follow the setup steps**
 2. **🔐 Create your `.env` file with API keys**
-3. **▶️ Run `python traffic_data_collector_with_backup.py`**
+3. **▶️ Run `traffic.py`**
 4. **⚙️ Choose a collection mode** (e.g., Option 7 for 3pm-11pm NY time, 1am-9am BDT)
 5. **💾 Data saves to `bryant_park_len_sum_traffic_data.csv`**
 6. **🧠 Train your LSTM model with the CSV to predict optimal routes!**
