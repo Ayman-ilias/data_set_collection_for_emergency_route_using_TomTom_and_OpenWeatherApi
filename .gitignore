@@ -22,3 +22,6 @@ env/
 # Ignore OS generated files
 .DS_Store
 Thumbs.db
+
+traffic.py
+trf.py
